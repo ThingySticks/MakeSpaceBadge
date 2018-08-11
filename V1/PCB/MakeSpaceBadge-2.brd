@@ -54,7 +54,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -256,6 +256,42 @@
 <text x="30.1625" y="144.4625" size="1.6764" layer="26" ratio="15" rot="MR0">-</text>
 <wire x1="24.5" y1="150.5" x2="30.5" y2="150.5" width="0" layer="20" curve="-180"/>
 <wire x1="67" y1="150.5" x2="73" y2="150.5" width="0" layer="20" curve="-180"/>
+<dimension x1="2.5" y1="64.5" x2="0" y2="64.5" x3="1.25" y3="60.3" textsize="1.016" layer="47"/>
+<dimension x1="0" y1="85" x2="18.3" y2="84.6" x3="9.15" y3="87.6" textsize="1.016" layer="47" dtype="horizontal"/>
+<dimension x1="0" y1="85" x2="34.4" y2="85.8" x3="17.2" y3="87.6" textsize="1.016" layer="47" dtype="horizontal"/>
+<dimension x1="2" y1="62" x2="27.5" y2="153.5" x3="-35.8" y3="107.75" textsize="1.016" layer="47" dtype="vertical"/>
+<text x="5.7" y="92.9" size="1.778" layer="49">0</text>
+<text x="5.8" y="99.4" size="1.778" layer="49">1</text>
+<text x="14" y="102.4" size="1.778" layer="49">2</text>
+<text x="21.6" y="98.6" size="1.778" layer="49">3</text>
+<text x="32.2" y="98.4" size="1.778" layer="49">4</text>
+<text x="39.9" y="102.4" size="1.778" layer="49">5</text>
+<text x="5.4" y="105.9" size="1.778" layer="49">6</text>
+<text x="5.8" y="112.6" size="1.778" layer="49">7</text>
+<text x="5.5" y="119.1" size="1.778" layer="49">8</text>
+<text x="6.6" y="125.8" size="1.778" layer="49">9</text>
+<text x="10.2" y="133.3" size="1.778" layer="49">10</text>
+<text x="17.4" y="138.6" size="1.778" layer="49">11</text>
+<text x="26.1" y="140.5" size="1.778" layer="49">12</text>
+<text x="35.2" y="138.4" size="1.778" layer="49">13</text>
+<text x="41.9" y="133.3" size="1.778" layer="49">14</text>
+<text x="47.4" y="125.8" size="1.778" layer="49">15</text>
+<text x="47.5" y="119.2" size="1.778" layer="49">16</text>
+<text x="47.4" y="112.5" size="1.778" layer="49">17</text>
+<text x="47.4" y="105.9" size="1.778" layer="49">18</text>
+<text x="47.4" y="99.4" size="1.778" layer="49">19</text>
+<text x="47.4" y="92.8" size="1.778" layer="49">20</text>
+<text x="52.9" y="133.4" size="1.778" layer="49">21</text>
+<text x="59.9" y="138.6" size="1.778" layer="49">22</text>
+<text x="68.6" y="140.5" size="1.778" layer="49">23</text>
+<text x="77.7" y="138.5" size="1.778" layer="49">24</text>
+<text x="84.4" y="133.2" size="1.778" layer="49">25</text>
+<text x="88.9" y="125.7" size="1.778" layer="49">26</text>
+<text x="89.9" y="119.1" size="1.778" layer="49">27</text>
+<text x="89.9" y="112.6" size="1.778" layer="49">28</text>
+<text x="89.9" y="106" size="1.778" layer="49">29</text>
+<text x="89.8" y="99.4" size="1.778" layer="49">30</text>
+<text x="90" y="92.8" size="1.778" layer="49">31</text>
 </plain>
 <libraries>
 <library name="ThingySticks">
@@ -1498,15 +1534,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <polygon width="0.4064" layer="16" isolate="0.4064">
 <vertex x="0" y="62"/>
 <vertex x="97.5" y="62"/>
-<vertex x="97.4" y="157.5"/>
-<vertex x="0" y="157.7"/>
+<vertex x="97.5" y="154"/>
+<vertex x="0" y="153.7"/>
 </polygon>
 <polygon width="0.4064" layer="1">
 <vertex x="0" y="61.9"/>
 <vertex x="97.5" y="61.8"/>
-<vertex x="97.5" y="157"/>
-<vertex x="-2.4" y="158.3"/>
-<vertex x="0" y="62"/>
+<vertex x="97.5" y="153.9"/>
+<vertex x="0" y="153.6"/>
 </polygon>
 <contactref element="GND" pad="TP"/>
 <contactref element="RESET" pad="1"/>

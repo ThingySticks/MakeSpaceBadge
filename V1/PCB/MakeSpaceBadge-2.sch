@@ -8090,6 +8090,7 @@ Diode with low voltage drop</description>
 <sheet>
 <plain>
 <text x="20.32" y="-2.54" size="1.27" layer="91">Power In</text>
+<text x="48.26" y="-7.62" size="2.54" layer="97">Diode the wrong way around!!!</text>
 </plain>
 <instances>
 <instance part="D5" gate="G$1" x="-76.2" y="109.22"/>
